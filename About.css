@@ -1,0 +1,20 @@
+#about{
+background-color: gray;
+
+}
+.center{
+    margin-top: 20px;
+    display: inline-flex;
+}
+.center-para{
+    width: 40%;
+}
+.center-image img{
+    width: 700px;
+    height: 600px;
+    position: relative;
+    left: 180px;
+}
+.para{
+    margin: 2rem;
+}

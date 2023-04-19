@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="general.css" />
+    <style>
+      body {
+        background-color: white;
+      }
+      .form {
+        position: relative;
+        left: 50%;
+        margin-top: 5%;
+        text-align: end;
+        padding: 10px;
+        background-color: white;
+        width: 30%;
+        height: 40vh;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        z-index: 15;
+      }
+
+      .form label {
+        padding-right: 15px;
+        color: black;
+        font-family: "Courier New", Courier, monospace;
+      }
+      .form div {
+        margin-top: 40px;
+        margin-right: 45px;
+      }
+      .txt {
+        border: solid 1.5px lightgray;
+        width: 350px;
+        height: 49px;
+        border-radius: 5px;
+        color: black;
+        padding-left: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+      }
+      .submit {
+        /* position: relative;
+        right: 300px; */
+        border: solid 1px lightgray;
+        border-radius: 10px;
+        width: 350px;
+        height: 49px;
+        border-radius: 5px;
+        background-color: rgb(107, 14, 188);
+      }
+      .submit:hover {
+        opacity: 0.5;
+        transition: 0.3;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="index.html" class="form">
+      <div>
+        <h2 id="header">StyloCash Log in</h2>
+
+        <input
+          type="text"
+          name="fName"
+          class="txt"
+          placeholder="Username"
+          required
+        />
+        <br />
+        <br />
+        <input
+          type="password"
+          name="email"
+          class="txt"
+          placeholder="Password"
+          required
+        />
+        <br /><br />
+        <button class="submit">Login</button>
+      </div>
+    </form>
+  </body>
+</html>

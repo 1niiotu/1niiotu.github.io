@@ -1,0 +1,19 @@
+.main{
+    margin-top: 5%;
+display: inline-flex;
+    
+}
+.image1 img{
+    width: 600px;
+    height: 500px;
+    padding: 10px;
+}
+.image2 img{
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+}
+.main p{
+margin-top: 10%;
+padding: 10px;
+}
